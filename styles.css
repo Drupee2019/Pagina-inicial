@@ -1,0 +1,34 @@
+body {
+
+    font-family: cursive;
+    font-size: 25px;
+    text-align: center; /*lo coloca en el centro*/
+    /*text-align: end ; lo pone en el borde derecho de la pantalla al texto */
+    /* text-align: left; lo ubica en una parte a la izquierda de la pantalla */
+    /* text-align: right; lo ubica en una parte derecha de la pantalla */
+    /* text-align: start; coloca el texto al inicio */
+    height:500px; /* sube o baja el borde inferior */
+    padding: 150px; /* expande y achica el borde con todo */
+    margin-top: 5px; /* ubica el cuadro completo con texto y todo */ 
+    margin-bottom: 1px; /* Agranda la pagina */
+    margin-left: 300px; /* mueve de izquierda a derecha el cuadro con todo */
+    margin-right: 300px; /* agranda */
+    background-image: url(fondo.jpg); /*agrega una imagen de fondo*/
+}
+
+div {
+    background-color: blueviolet;
+    border: 5px solid black; /* grosor del border */
+    border-radius:50px; /* ajusta el bordeado , lo redondea */ 
+}
+
+button:hover {
+    background-color: green; /*color del boton */
+    color: yellow; /*color de las letras del boton */
+    text-align: center; /*para que quede el texto en el diome */
+    font-size: 16px; /*tamaño de letras*/
+    margin: 2px 5px; /*creo que es el espacio para poder tocar el boton */
+    padding: 10px 30px; /*es el tamaño del boton */
+    transition-duration: 0.5s; /*es la duración de la animación del boton*/
+    cursor: pointer; /*cambia el icono del cursor*/
+}
